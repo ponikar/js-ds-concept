@@ -1,0 +1,3 @@
+elementry sort 
+
+divide and conqure

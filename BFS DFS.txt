@@ -1,0 +1,6 @@
+BFS
+
+Visit each node level by level (Tree or Node)
+
+DFS 
+Visit each node and do down and down until there is no node available to visit (tree or Node)

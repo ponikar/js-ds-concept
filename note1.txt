@@ -1,0 +1,12 @@
+
+1. Worst Case // only for big oh
+
+// for all three cases
+
+2. Remove constant // like 1 or a or c0 // O(n + 1) -> O(n)
+
+3. Diffrent inputs should have diffrent variables // like n1 and n2 O(n1 + n2) 0(n1 + n2^2)
+
+4. Remove non-dominated term (In other language only highest scaleblity will matter)
+ 
+ex. O(n + n^2 + 100) -> 0(n^2)

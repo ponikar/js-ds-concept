@@ -1,0 +1,24 @@
+
+// RULES Of RECURSION work as STACK DS
+
+1 -> Always return something (Base Case) otherwise it is gonna be infinite!
+
+2 -> Always try to divide your problem into sub problems (It will make a tree) (Recursive case)
+
+3 -> Don't be consfused over printting stuff;
+
+4 -> in recursive, there is always gonna be conditional flow 
+
+5 -> Always start with small login like making small trees!
+
+
+Example
+
+
+function fact(n) {
+  // always put base condition at first
+	if(n <= 2)
+	    return n;
+  // this will be your recursive case divide your problem
+	return n * fact(n-1); 
+}
